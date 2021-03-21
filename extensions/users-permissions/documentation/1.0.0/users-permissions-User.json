@@ -1268,6 +1268,9 @@
                   "type": "string"
                 }
               },
+              "group_id": {
+                "type": "string"
+              },
               "published_at": {
                 "type": "string"
               },

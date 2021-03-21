@@ -61,8 +61,8 @@
       "configurable": false
     },
     "group": {
-      "model": "group",
-      "via": "participants"
+      "via": "participants",
+      "model": "group"
     },
     "avatar": {
       "model": "file",
