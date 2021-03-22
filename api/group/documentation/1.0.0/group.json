@@ -576,6 +576,12 @@
                     "type": "string"
                   }
                 },
+                "quited_date": {
+                  "type": "string"
+                },
+                "payd_value": {
+                  "type": "number"
+                },
                 "created_by": {
                   "type": "string"
                 },

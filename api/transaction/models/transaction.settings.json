@@ -20,9 +20,9 @@
       "type": "string"
     },
     "author": {
+      "via": "transactions",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "transactions"
+      "model": "user"
     },
     "group": {
       "model": "group",

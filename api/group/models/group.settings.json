@@ -15,9 +15,9 @@
       "type": "string"
     },
     "participants": {
+      "via": "group",
       "plugin": "users-permissions",
-      "collection": "user",
-      "via": "group"
+      "collection": "user"
     },
     "group_id": {
       "type": "string",
