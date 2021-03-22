@@ -22,6 +22,10 @@
     "group_id": {
       "type": "string",
       "unique": true
+    },
+    "transactions": {
+      "via": "group",
+      "collection": "transaction"
     }
   }
 }

@@ -1271,6 +1271,12 @@
               "group_id": {
                 "type": "string"
               },
+              "transactions": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1348,6 +1354,43 @@
                 "type": "string"
               }
             }
+          },
+          "transactions": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "number"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "author": {
+                  "type": "string"
+                },
+                "group": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -1392,6 +1435,12 @@
           },
           "group": {
             "type": "string"
+          },
+          "transactions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "created_by": {
             "type": "string"

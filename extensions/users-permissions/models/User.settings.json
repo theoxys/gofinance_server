@@ -74,6 +74,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "transactions": {
+      "via": "author",
+      "collection": "transaction"
     }
   }
 }
