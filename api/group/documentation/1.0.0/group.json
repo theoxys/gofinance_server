@@ -576,10 +576,10 @@
                     "type": "string"
                   }
                 },
-                "quited_date": {
-                  "type": "string"
-                },
                 "payd_value": {
+                  "type": "number"
+                },
+                "user_balance": {
                   "type": "number"
                 },
                 "created_by": {
@@ -631,6 +631,10 @@
               }
             }
           },
+          "absolute_value": {
+            "type": "number",
+            "default": 0
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -656,6 +660,10 @@
             "items": {
               "type": "string"
             }
+          },
+          "absolute_value": {
+            "type": "number",
+            "default": 0
           },
           "published_at": {
             "type": "string",

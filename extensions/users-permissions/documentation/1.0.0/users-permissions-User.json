@@ -1277,6 +1277,9 @@
                   "type": "string"
                 }
               },
+              "absolute_value": {
+                "type": "number"
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1392,12 +1395,11 @@
               }
             }
           },
-          "quited_date": {
-            "type": "string",
-            "format": "date-time",
-            "default": "2021-03-01T15:00:00.000Z"
-          },
           "payd_value": {
+            "type": "number",
+            "default": 0
+          },
+          "user_balance": {
             "type": "number",
             "default": 0
           }
@@ -1451,12 +1453,11 @@
               "type": "string"
             }
           },
-          "quited_date": {
-            "type": "string",
-            "format": "date-time",
-            "default": "2021-03-01T15:00:00.000Z"
-          },
           "payd_value": {
+            "type": "number",
+            "default": 0
+          },
+          "user_balance": {
             "type": "number",
             "default": 0
           },

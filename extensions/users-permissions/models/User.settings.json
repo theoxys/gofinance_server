@@ -61,8 +61,8 @@
       "configurable": false
     },
     "group": {
-      "model": "group",
-      "via": "participants"
+      "via": "participants",
+      "model": "group"
     },
     "avatar": {
       "model": "file",
@@ -79,11 +79,11 @@
       "collection": "transaction",
       "via": "author"
     },
-    "quited_date": {
-      "type": "datetime",
-      "default": "2021-03-01T15:00:00.000Z"
-    },
     "payd_value": {
+      "type": "decimal",
+      "default": 0
+    },
+    "user_balance": {
       "type": "decimal",
       "default": 0
     }

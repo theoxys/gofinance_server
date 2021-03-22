@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "03/22/2021 1:53:18 PM"
+    "x-generation-date": "03/22/2021 6:45:49 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3358,10 +3358,10 @@
                     "type": "string"
                   }
                 },
-                "quited_date": {
-                  "type": "string"
-                },
                 "payd_value": {
+                  "type": "number"
+                },
+                "user_balance": {
                   "type": "number"
                 },
                 "created_by": {
@@ -3413,6 +3413,10 @@
               }
             }
           },
+          "absolute_value": {
+            "type": "number",
+            "default": 0
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -3438,6 +3442,10 @@
             "items": {
               "type": "string"
             }
+          },
+          "absolute_value": {
+            "type": "number",
+            "default": 0
           },
           "published_at": {
             "type": "string",
@@ -3517,10 +3525,10 @@
                   "type": "string"
                 }
               },
-              "quited_date": {
-                "type": "string"
-              },
               "payd_value": {
+                "type": "number"
+              },
+              "user_balance": {
                 "type": "number"
               },
               "created_by": {
@@ -3556,6 +3564,9 @@
                 "items": {
                   "type": "string"
                 }
+              },
+              "absolute_value": {
+                "type": "number"
               },
               "published_at": {
                 "type": "string"
@@ -3714,10 +3725,10 @@
                     "type": "string"
                   }
                 },
-                "quited_date": {
-                  "type": "string"
-                },
                 "payd_value": {
+                  "type": "number"
+                },
+                "user_balance": {
                   "type": "number"
                 },
                 "created_by": {
@@ -3859,6 +3870,9 @@
                   "type": "string"
                 }
               },
+              "absolute_value": {
+                "type": "number"
+              },
               "published_at": {
                 "type": "string"
               },
@@ -3974,12 +3988,11 @@
               }
             }
           },
-          "quited_date": {
-            "type": "string",
-            "format": "date-time",
-            "default": "2021-03-01T15:00:00.000Z"
-          },
           "payd_value": {
+            "type": "number",
+            "default": 0
+          },
+          "user_balance": {
             "type": "number",
             "default": 0
           }
@@ -4033,12 +4046,11 @@
               "type": "string"
             }
           },
-          "quited_date": {
-            "type": "string",
-            "format": "date-time",
-            "default": "2021-03-01T15:00:00.000Z"
-          },
           "payd_value": {
+            "type": "number",
+            "default": 0
+          },
+          "user_balance": {
             "type": "number",
             "default": 0
           },

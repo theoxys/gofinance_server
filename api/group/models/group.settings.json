@@ -15,17 +15,22 @@
       "type": "string"
     },
     "participants": {
-      "via": "group",
       "plugin": "users-permissions",
-      "collection": "user"
+      "collection": "user",
+      "via": "group"
     },
     "group_id": {
       "type": "string",
       "unique": true
     },
     "transactions": {
-      "via": "group",
-      "collection": "transaction"
+      "collection": "transaction",
+      "via": "group"
+    },
+    "absolute_value": {
+      "type": "decimal",
+      "private": false,
+      "default": 0
     }
   }
 }
